@@ -29,7 +29,7 @@
     background-repeat: no-repeat;
 }
 
-.header{
+.section-1-header{
     font-family: "Poppins", sans-serif;
     color: #ffffff;
     font-size: 40px;
@@ -37,6 +37,11 @@
     line-height: 1.1;
     margin: 0;
     padding-bottom: 35px;
+}
+
+.section-div{
+    padding-top: 70px; 
+    padding-bottom: 70px;
 }
 
 .bakkup-img{
@@ -81,4 +86,35 @@
 .start-btn:hover{
     transition-duration: 0.3s;
     background-color:#00c2a2;
+}
+
+.section-2{
+    background-color: #f2f4f7;
+    border-color: #f2f4f7;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.section-2-header{
+    font-family: "Poppins", sans-serif;
+    color: #2C316E;
+    font-size: 32px;
+    line-height: 1.1;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.train-session-img{
+    width: 300px;
+    height:349px;
+    padding-left: 160px;
+}
+
+.paragraph-gray{
+    font-family: "Roboto", sans-serif;
+    color: #4C515D;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 35px;
 }
