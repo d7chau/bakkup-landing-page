@@ -163,3 +163,25 @@
     height: 600px;
     padding-left: 40px;
 }
+
+.section-4{
+    background-color: #f2f4f7;
+    border-color: #f2f4f7;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.section-4-header{
+    font-family: "Poppins", sans-serif;
+    color: #2C316E;
+    font-size: 32px;
+    line-height: 1.1;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.money-back-img{
+    width: 300px;
+    padding-left: 130px;
+}
