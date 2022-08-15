@@ -28,6 +28,10 @@
     padding-bottom: 70px;
 }
 
+.section-1-container{
+    padding-right: 135px;
+}
+
 .section-1-header{
     font-family: "Poppins", sans-serif;
     color: #ffffff;
@@ -37,11 +41,6 @@
     margin: 0;
     padding-bottom: 35px;
 }
-
-/* .section-div{
-    padding-top: 70px; 
-    padding-bottom: 70px;
-} */
 
 .bakkup-img{
     width: 100%;
@@ -95,6 +94,10 @@
     background-repeat: no-repeat;
     padding-top: 70px; 
     padding-bottom: 70px;
+}
+
+.section-2-container{
+    padding-right: 135px;
 }
 
 .section-2-header{
@@ -183,6 +186,10 @@
     line-height: 1.1;
     margin: 0;
     padding-bottom: 50px;
+}
+
+.section-4-container{
+    padding-right: 135px;
 }
 
 .money-back-img{
