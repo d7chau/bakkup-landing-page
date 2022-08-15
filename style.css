@@ -185,3 +185,45 @@
     width: 300px;
     padding-left: 130px;
 }
+
+.section-5{
+    background-color: #484e9c;
+    border-color: #484e9c;;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-img-container{
+    display:flex; 
+    justify-content:center;
+}
+
+.footer-bakkup-img{
+    width: 100px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.copyright-text{
+    font-family: "Roboto", sans-serif;
+    color: #f2f4f7;
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.footer-links{
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-links a{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+}
+
