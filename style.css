@@ -141,10 +141,6 @@ html,body
     padding-top: 70px;
 }
 
-.section-3-container{
-    padding-left: 30px;
-}
-
 .section-3-subheader{
     font-family: "Poppins", sans-serif;
     color: #2C316E;
@@ -154,11 +150,30 @@ html,body
     padding-bottom: 30px;
 }
 
+.cloud-storage-section{
+    padding-left: 30px;
+}
+
+.backup-section{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.customer-support-section{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.hard-drive-section{
+    padding-left: 30px;
+}
+
+
 .vertical-center{
     justify-content:center;
 }
 
-.cloud-process-img{
+.cloud-storage-img{
     width: 600px;
     height: 600px;
     padding-right: 40px;
@@ -210,6 +225,13 @@ html,body
     padding-left: 165px;
 }
 
+.section-4-paragraph-3{
+    font-family: 'Roboto', sans-serif; 
+    color: #4C515D; 
+    font-size: 20px; 
+    margin: 0;
+}
+
 .section-5{
     background-color: #484e9c;
     border-color: #484e9c;;
@@ -256,3 +278,40 @@ html,body
     text-decoration: none;
 }
 
+.legal-link{
+    padding-right:10px;
+}
+
+.privacy-link{
+    padding-left: 10px; 
+    padding-right:10px;
+}
+
+.security-link{
+    padding-left: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
