@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .flexbox-container{
     display: flex;
     max-width: 1140px;
@@ -132,6 +141,10 @@
     padding-top: 70px;
 }
 
+.section-3-container{
+    padding-left: 30px;
+}
+
 .section-3-subheader{
     font-family: "Poppins", sans-serif;
     color: #2C316E;
@@ -141,7 +154,7 @@
     padding-bottom: 30px;
 }
 
-.section-3-vert-center{
+.vertical-center{
     justify-content:center;
 }
 
@@ -193,8 +206,8 @@
 }
 
 .money-back-img{
-    width: 300px;
-    padding-left: 130px;
+    width: 315px;
+    padding-left: 165px;
 }
 
 .section-5{
