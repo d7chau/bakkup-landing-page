@@ -68,6 +68,15 @@ html,body
     padding-left: 110px;
 }
 
+.sec-1-par-1{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
 .paragraph-white{
     font-family: "Roboto", sans-serif;
     color: #ffffff;
@@ -78,16 +87,16 @@ html,body
 }
 
 .start-btn{
-    font-family: "Poppins", sans-serif;
-    border: 0;
-    border-radius: 40px;
-    padding: 16px 145px;
     background-color: #01e9c2;
     color: #2c316e;
+    padding: 16px 145px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight:700;
     line-height: 1.5;
-    cursor: pointer;
 }
 
 .start-btn:hover{
@@ -225,7 +234,7 @@ html,body
     padding-left: 165px;
 }
 
-.section-4-paragraph-3{
+.sec-4-par-3{
     font-family: 'Roboto', sans-serif; 
     color: #4C515D; 
     font-size: 20px; 
@@ -291,27 +300,99 @@ html,body
     padding-left: 10px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* old */
+/* @media only screen and (max-width: 600px) {
+    .flexbox-container{
+        display: block;
+        width: 600px;
+    }
+    .inner-column{
+        display: block;
+        flex-direction: column;
+    }
+    .bakkup-img{
+        width: 100%;
+        max-width: 350px;
+        display: block;
+        text-align: center;
+        padding-left: 135px;
+        padding-bottom: 35px;
+    }
+    .main-img{
+        width: 400px;
+        height: 337px;
+        padding-left: 105px;
+    }
+
+} */
+
+
+/* Desktops, Large screens (if smaller than 1200px then run code)*/
+@media only screen and (max-width:1200px){
+    .main-img{
+        padding-right: 80px;
+    }
+    .start-btn{
+        background-color: #01e9c2;
+        color: #2c316e;
+        padding: 22px 145px;
+        border: 0;
+        border-radius: 40px;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        font-size: 13px;
+        font-weight:700;
+        line-height: 1;
+    }
+    .cloud-storage-section{
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .cloud-storage-img{
+        width: 500px;
+        height: 500px;
+    }
+    .backup-section{
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .dashboard-img{
+        width: 500px;
+        height: 400px;
+    }
+    .customer-support-section{
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .customer-support-img{
+        width: 500px;
+        height: 500px;
+    }
+    .hard-drive-section{
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .hard-drive-img{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+/* Laptops, Small screens (if smaller than 1024px then run code)*/
+@media only screen and (max-width:1024px){
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* iPads, Tablets (if smaller than 768px then run code)*/
+@media only screen and (max-width:768px){
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Mobile (if smaller than 480px then run code)*/
+@media only screen and (max-width:480px){
 
 }
