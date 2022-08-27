@@ -48,7 +48,7 @@ html,body
     padding-left: 130px;
 }
 
-.main-img{
+.business-presentation-img{
     display: inline-block;
     vertical-align: middle;
     width: 400px;
@@ -388,7 +388,7 @@ html,body
         padding-left: 50px;
     }
 
-    .main-img{
+    .business-presentation-img{
         padding-left: 0px;
         padding-right: 80px;
     }
@@ -465,7 +465,7 @@ html,body
         padding-right: 50px;
     }
     
-    .main-img{
+    .business-presentation-img{
         padding-right: 70px;
     }
 
@@ -528,7 +528,7 @@ html,body
         padding-left: 0px;
     }
 
-    .main-img{
+    .business-presentation-img{
         width: 400px;
         height: 337px;
         margin: 0 auto;
@@ -726,7 +726,7 @@ html,body
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
     .section-4-txt{
         padding-left: 35px;
         padding-right: 35px;
