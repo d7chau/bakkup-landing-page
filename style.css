@@ -7,20 +7,16 @@ html,body
     overflow-x: hidden; 
 }
 
-.flexbox-container{
+.inner-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1-flex-container{
     display: flex;
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.flexbox-container div{
-    flex: 1;
-}
-
-.inner-column{
-    display: flex;
-    flex-direction: column;
 }
 
 .section-1{
@@ -112,14 +108,7 @@ html,body
     background-repeat: no-repeat;
 }
 
-/* .section-2-flexbox-container{
-    display: flex;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-.section-2-flexbox-container{
+.section-2-flex-container{
     padding: 50px 110px 70px 110px;
     display: flex;
     max-width: 1140px;
@@ -143,20 +132,12 @@ html,body
     padding-right: 80px;
 }
 
-.section-2-text{
+.section-2-txt{
     font-family: "Roboto", sans-serif;
     color: #4C515D;
     font-size: 20px;
     margin: 0;
     padding-right: 60px;
-}
-
-.paragraph-gray{
-    font-family: "Roboto", sans-serif;
-    color: #4C515D;
-    font-size: 20px;
-    margin: 0;
-    padding-bottom: 35px;
 }
 
 .section-3{
@@ -187,25 +168,72 @@ html,body
 
 .cloud-storage-section{
     padding-left: 30px;
+    display: flex;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-3-par-1{
+    font-family: "Roboto", sans-serif;
+    color: #4C515D;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 35px;
 }
 
 .backup-section{
     padding-top: 40px;
     padding-left: 30px;
+    display: flex;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-3-par-2{
+    font-family: "Roboto", sans-serif;
+    color: #4C515D;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 35px;
 }
 
 .customer-support-section{
     padding-top: 40px;
     padding-left: 30px;
+    display: flex;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-3-par-3{
+    font-family: "Roboto", sans-serif;
+    color: #4C515D;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 35px;
 }
 
 .hard-drive-section{
     padding-left: 30px;
+    display: flex;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.sec-3-par-4{
+    font-family: "Roboto", sans-serif;
+    color: #4C515D;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 35px;
+}
 
 .vertical-center{
-    justify-content:center;
+    justify-content: center;
 }
 
 .cloud-storage-img{
@@ -249,7 +277,7 @@ html,body
     padding-top: 70px; 
 }
 
-.section-4-flexbox-container{
+.section-4-flex-container{
     padding: 50px 130px 70px 130px;
     display: flex;
     max-width: 1140px;
@@ -265,6 +293,22 @@ html,body
 
 .section-4-txt{
     padding-right: 80px;
+}
+
+.sec-4-par-1{
+    font-family: "Roboto", sans-serif;
+    color: #4C515D;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.sec-4-par-2{
+    font-family: "Roboto", sans-serif;
+    color: #4C515D;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 35px;
 }
 
 .sec-4-par-3{
@@ -286,7 +330,7 @@ html,body
 
 .footer-img-container{
     display:flex; 
-    justify-content:center;
+    justify-content: center;
 }
 
 .footer-bakkup-img{
@@ -333,92 +377,80 @@ html,body
     padding-left: 10px;
 }
 
-/* old */
-/* @media only screen and (max-width: 600px) {
-    .flexbox-container{
-        display: block;
-        width: 600px;
-    }
-    .inner-column{
-        display: block;
-        flex-direction: column;
-    }
-    .bakkup-img{
-        width: 100%;
-        max-width: 350px;
-        display: block;
-        text-align: center;
-        padding-left: 135px;
-        padding-bottom: 35px;
-    }
-    .main-img{
-        width: 400px;
-        height: 337px;
-        padding-left: 105px;
-    }
-
-} */
-
 
 /* Desktops, Large screens (if smaller than 1200px then run code)*/
 @media only screen and (max-width:1200px){
     .section-1-container{
         padding: 70px 100px 70px 100px;
     }
+
     .bakkup-img{
         padding-left: 50px;
     }
+
     .main-img{
         padding-left: 0px;
         padding-right: 80px;
     }
+
     .section-2-container{
         padding-left: 110px;
         padding-right: 110px;
     }
+
     .train-session-img{
         padding-left: 80px;
     }
+
     .cloud-storage-section{
         margin: 0;
         padding-left: 50px;
         padding-right: 50px;
     }
+
     .cloud-storage-img{
         width: 500px;
         height: 500px;
     }
+
     .backup-section{
         margin: 0;
         padding-left: 50px;
         padding-right: 50px;
     }
+
     .dashboard-img{
         width: 500px;
         height: 400px;
     }
+
     .customer-support-section{
         margin: 0;
         padding-left: 50px;
         padding-right: 50px;
     }
+
     .customer-support-img{
         width: 500px;
         height: 500px;
     }
+
     .hard-drive-section{
         margin: 0;
         padding-left: 50px;
         padding-right: 50px;
     }
+    
     .hard-drive-img{
         width: 500px;
         height: 500px;
     }
+
     .section-4-container{
         padding-left: 110px;
         padding-right: 110px;
     }
+
     .money-back-img{
         width: 315px;
         padding-left: 100px;
@@ -432,30 +464,38 @@ html,body
         padding-left: 50px;
         padding-right: 50px;
     }
+    
     .main-img{
-        padding-right: 0px;
+        padding-right: 70px;
     }
+
     .section-2-container{
         padding-left: 90px;
         padding-right: 90px;
     }
+
     .train-session-img{
         padding-left: 10px;
     }
-    .section-2-text{
+
+    .section-2-txt{
         padding-right: 0px;
     }
+
     .vertical-center-2{
-        justify-content:center;
+        justify-content: center;
     }
+
     .section-4-container{
         padding-left: 90px;
         padding-right: 90px;    
     }
+
     .money-back-img{
         padding-left: 0px;
         padding-right: 80px;
     }
+
     .section-4-txt{
         padding-right: 0px;
     }
@@ -464,75 +504,126 @@ html,body
 /* iPads, Tablets (if smaller than 768px then run code)*/
 @media only screen and (max-width:768px){
     .section-1-container{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
-    .bakkup-img{
-        width: 230px;
+
+    .section-1-flex-container{
+        display: block;
     }
-    .main-img{
-        width: 330px;
-        height: 267px;
-    }
+
     .section-1-header{
+        text-align: center;
         font-size: 35px;
     }
+
+    .sec-1-par-1{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .bakkup-img{
+        width: 300px;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .main-img{
+        width: 400px;
+        height: 337px;
+        margin: 0 auto;
+        padding-right: 0px;
+        padding-bottom: 35px;
+    }
+
     .start-btn{
         padding: 10px 27px;
         width: 100%;
         min-height: 60px;
         min-width: 120px;
     }
+
     .start-btn-txt{
         font-size: 16px;
     }
-    .section-2-flexbox-container{
+
+    .section-2-flex-container{
         display: block;
+        padding-left: 50px;
+        padding-right: 50px;
     }
+
+    .section-2-header{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .train-session-img{
         padding: 0px 0px 50px 0px;
         margin: 0 auto;
     }
+
+    .section-2-txt{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
     .sec-2-par-1{
         margin:0;
         padding-bottom: 35px;
     }
+
     .sec-2-par-2{
         margin:0;
         padding-bottom: 35px;
     }
+
     .sec-2-par-3{
         margin:0;
     }
+
     .section-3-header{
         font-family: "Poppins", sans-serif;
         color: #2C316E;
         font-size: 32px;
         line-height: 1.1;
         margin: 0;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
         padding-bottom: 5px;
     }
+
     .cloud-storage-img{
         width: 400px;
         height: 400px;
     }
+
     .dashboard-img{
         width: 400px;
         height: 300px;
     }
+
     .customer-support-img{
         width: 400px;
         height: 400px;
     }
+
     .hard-drive-img{
         width: 400px;
         height: 400px;
     }
-    .section-4-flexbox-container{
+
+    .section-4-flex-container{
         display: block;
+        padding-left: 50px;
+        padding-right: 50px;
     }
+
+    .section-4-header{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .money-back-img{
         width: 290px;
         padding-left: 0px;
@@ -540,9 +631,104 @@ html,body
         padding-bottom: 50px;
         margin: 0 auto;
     }
+
+    .section-4-txt{
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 
-/* Mobile (if smaller than 480px then run code)*/
-@media only screen and (max-width:480px){
+/* Mobile (if smaller than 500px then run code)*/
+@media only screen and (max-width:500px){
+    .section-2-flex-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
+    .section-2-txt{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .section-2-header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .train-session-img{
+        padding: 0px 0px 50px 0px;
+        margin: 0 auto;
+    }
+
+    .section-3-header{
+        padding-bottom: 30px;
+    }
+
+    .section-3-subheader{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .sec-3-par-4{
+        font-family: "Roboto", sans-serif;
+        color: #4C515D;
+        font-size: 20px;
+        margin: 0;
+        padding-bottom: 70px;
+    }
+
+    .cloud-storage-section{
+        flex-direction: column;
+    }
+
+    .cloud-storage-img{
+        width: 350px;
+        height: 350px;
+        padding-right: 0px;
+        padding-left: 20px;
+        padding-bottom: 15px;
+    }
+
+    .backup-section{
+        flex-direction: column-reverse;
+    }
+
+    .dashboard-img{
+        width: 350px;
+        height: 250px;
+        padding-left: 15px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    .customer-support-section{
+        flex-direction: column;
+    }
+
+    .customer-support-img{
+        width: 350px;
+        height: 350px;
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+
+    .hard-drive-section{
+        flex-direction: column-reverse;
+    }
+
+    .hard-drive-img{
+        width: 350px;
+        height: 350px;
+        padding-left: 15px;
+    }
+
+    .section-4-flex-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .section-4-txt{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 }
