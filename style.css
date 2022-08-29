@@ -50,7 +50,6 @@ html,body
 
 .business-presentation-img{
     display: block;
-    vertical-align: middle;
     width: 400px;
     height: 337px;
     padding-top: 35px;
@@ -640,8 +639,8 @@ html,body
     }
 }
 
-/* Mobile (if smaller than 480px then run code)*/
-@media only screen and (max-width:480px){
+/* Mobile (if smaller than 500px then run code)*/
+@media only screen and (max-width:500px){
     .section-1-container{
         padding-left: 0px;
         padding-right: 0px;
