@@ -42,14 +42,14 @@ html,body
 }
 
 .bakkup-img{
-    width: 300px;
     display: block;
+    width: 300px;
     text-align: center;
     padding-left: 130px;
 }
 
 .business-presentation-img{
-    display: inline-block;
+    display: block;
     vertical-align: middle;
     width: 400px;
     height: 337px;
@@ -126,6 +126,7 @@ html,body
 }
 
 .train-session-img{
+    display: block;
     width: 300px;
     height:349px;
     padding-left: 120px;
@@ -237,24 +238,28 @@ html,body
 }
 
 .cloud-storage-img{
+    display: block;
     width: 600px;
     height: 600px;
     padding-right: 40px;
 }
 
 .dashboard-img{
+    display: block;
     width: 600px;
     height: 476px;
     padding-left: 40px;
 }
 
 .customer-support-img{
+    display: block;
     width: 600px;
     height: 600px;
     padding-right: 40px;
 }
 
 .hard-drive-img{
+    display: block;
     width: 600px;
     height: 600px;
     padding-left: 40px;
@@ -286,6 +291,7 @@ html,body
 }
 
 .money-back-img{
+    display: block;
     width: 315px;
     padding-left: 110px;
     padding-right: 40px;
@@ -328,14 +334,10 @@ html,body
     padding-bottom: 40px;
 }
 
-.footer-img-container{
-    display:flex; 
-    justify-content: center;
-}
-
 .footer-bakkup-img{
-    width: 100px;
     display: block;
+    width: 100px;
+    margin: 0 auto;
     padding-bottom: 5px;
 }
 
@@ -638,8 +640,40 @@ html,body
     }
 }
 
-/* Mobile (if smaller than 500px then run code)*/
-@media only screen and (max-width:500px){
+/* Mobile (if smaller than 480px then run code)*/
+@media only screen and (max-width:480px){
+    .section-1-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .bakkup-img{
+        width: 280px;
+    }
+
+    .business-presentation-img{
+        width: 350px;
+        height: 287px;
+        margin: 0 auto;
+        padding-right: 0px;
+        padding-bottom: 35px;
+    }
+
+    .section-1-header{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .sec-1-par-1{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .start-btn-container{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
     .section-2-flex-container{
         padding-left: 0px;
         padding-right: 0px;
@@ -651,75 +685,111 @@ html,body
     }
 
     .section-2-header{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .train-session-img{
-        padding: 0px 0px 50px 0px;
-        margin: 0 auto;
-    }
-
-    .section-3-header{
-        padding-bottom: 30px;
-    }
-
-    .section-3-subheader{
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    .sec-3-par-4{
-        font-family: "Roboto", sans-serif;
-        color: #4C515D;
-        font-size: 20px;
-        margin: 0;
-        padding-bottom: 70px;
+        width: 270px;
+        height:319px;
     }
 
     .cloud-storage-section{
         flex-direction: column;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .section-3-header{
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 30px;
     }
 
     .cloud-storage-img{
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
+        margin: 0 auto;
         padding-right: 0px;
-        padding-left: 20px;
         padding-bottom: 15px;
+    }
+
+    .section-3-subheader{
+        text-align: center;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 20px;
+    }
+
+    .sec-3-par-1{
+        text-align: justify;
+        text-justify: inter-word;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .backup-section{
         flex-direction: column-reverse;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .dashboard-img{
         width: 350px;
         height: 250px;
-        padding-left: 15px;
+        margin: 0 auto;
+        padding-left: 0px;
         padding-top: 0px;
         padding-bottom: 15px;
     }
 
+    .sec-3-par-2{
+        text-align: justify;
+        text-justify: inter-word;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
     .customer-support-section{
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .customer-support-img{
         width: 350px;
-        height: 350px;
+        height: 300px;
+        margin: 0 auto;
         padding-right: 0px;
-        padding-left: 15px;
+        padding-left: 0px;
+    }
+
+    .sec-3-par-3{
+        text-align: justify;
+        text-justify: inter-word;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .hard-drive-section{
         flex-direction: column-reverse;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .hard-drive-img{
         width: 350px;
         height: 350px;
-        padding-left: 15px;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .sec-3-par-4{
+        text-align: justify;
+        text-justify: inter-word;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 70px;
     }
 
     .section-4-flex-container{
@@ -730,5 +800,9 @@ html,body
     .section-4-txt{
         padding-left: 35px;
         padding-right: 35px;
+    }
+
+    .footer-bakkup-img{
+        width: 85px;
     }
 }
