@@ -1,6 +1,6 @@
 # Introduction to Cloud Storage Landing Page
 
-[![](https://github.com/d7chau/bakkup-landing-page/blob/main/img/bakkup-thumbnail.png)](https://d7chau.github.io/bakkup-landing-page/)
+[![](https://github.com/d7chau/bakkup-landing-page/blob/main/img/bakkup-thumbnail.png)](https://d7chau.github.io/cloud-storage-landing-page/)
 
 ## Description
 
@@ -8,7 +8,7 @@ A responsive landing page for a cloud storage service called "Bakkup", built usi
 
 ## Live Demo
 
-https://d7chau.github.io/bakkup-landing-page/
+https://d7chau.github.io/cloud-storage-landing-page/
 
 ## Authors
 
