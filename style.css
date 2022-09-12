@@ -155,6 +155,7 @@ html,body
     line-height: 1.1;
     margin: 0;
     padding-top: 70px; 
+    padding-bottom: 5px;
 }
 
 .section-3-subheader{
@@ -550,7 +551,6 @@ html,body
     .section-3-header{
         padding-left: 80px;
         padding-right: 80px;
-        padding-bottom: 5px;
     }
 
     .section-4-flex-container{
