@@ -642,28 +642,29 @@ html,body
 /* Mobile (if smaller than 500px then run code)*/
 @media only screen and (max-width:500px){
     .section-1-container{
-        padding-left: 0px;
-        padding-right: 0px;
+        padding: 50px 0px 50px 0px;
     }
 
     .bakkup-img{
-        width: 280px;
+        width: 260px;
     }
 
     .business-presentation-img{
-        width: 320px;
-        height: 257px;
+        width: 300px;
+        height: 237px;
         margin: 0 auto;
         padding-right: 0px;
         padding-bottom: 35px;
     }
 
     .section-1-header{
+        font-size: 30px;
         padding-left: 35px;
         padding-right: 35px;
     }
 
     .sec-1-par-1{
+        font-size: 18px;
         padding-left: 35px;
         padding-right: 35px;
     }
@@ -676,6 +677,7 @@ html,body
     .section-2-flex-container{
         padding-left: 0px;
         padding-right: 0px;
+        padding-bottom: 50px;
     }
 
     .section-2-txt{
@@ -684,13 +686,27 @@ html,body
     }
 
     .section-2-header{
+        font-size: 30px;
         padding-left: 35px;
         padding-right: 35px;
+        padding-top: 50px;
     }
 
     .train-session-img{
-        width: 270px;
-        height:319px;
+        width: 250px;
+        height:299px;
+    }
+
+    .sec-2-par-1{
+        font-size: 18px;
+    }
+
+    .sec-2-par-2{
+        font-size: 18px;
+    }
+
+    .sec-2-par-3{
+        font-size: 18px;
     }
 
     .cloud-storage-section{
@@ -700,20 +716,20 @@ html,body
     }
 
     .section-3-header{
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-bottom: 30px;
+        font-size: 30px;
+        padding: 50px 35px 30px 35px;
     }
 
     .cloud-storage-img{
-        width: 330px;
-        height: 330px;
+        width: 310px;
+        height: 310px;
         margin: 0 auto;
         padding-right: 0px;
         padding-bottom: 15px;
     }
 
     .section-3-subheader{
+        font-size: 18px;
         text-align: center;
         padding-left: 35px;
         padding-right: 35px;
@@ -721,6 +737,7 @@ html,body
     }
 
     .sec-3-par-1{
+        font-size: 18px;
         text-align: justify;
         text-justify: inter-word;
         padding-left: 35px;
@@ -734,8 +751,8 @@ html,body
     }
 
     .dashboard-img{
-        width: 350px;
-        height: 250px;
+        width: 330px;
+        height: 230px;
         margin: 0 auto;
         padding-left: 0px;
         padding-top: 0px;
@@ -743,6 +760,7 @@ html,body
     }
 
     .sec-3-par-2{
+        font-size: 18px;
         text-align: justify;
         text-justify: inter-word;
         padding-left: 35px;
@@ -756,14 +774,15 @@ html,body
     }
 
     .customer-support-img{
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        height: 300px;
         margin: 0 auto;
         padding-right: 0px;
         padding-left: 0px;
     }
 
     .sec-3-par-3{
+        font-size: 18px;
         text-align: justify;
         text-justify: inter-word;
         padding-left: 35px;
@@ -777,23 +796,30 @@ html,body
     }
 
     .hard-drive-img{
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
         margin: 0 auto;
         padding-left: 0px;
     }
 
     .sec-3-par-4{
+        font-size: 18px;
         text-align: justify;
         text-justify: inter-word;
         padding-left: 35px;
         padding-right: 35px;
-        padding-bottom: 70px;
+        padding-bottom: 50px;
+    }
+
+    .section-4-header{
+        font-size: 30px;
+        padding-top: 50px;
     }
 
     .section-4-flex-container{
         padding-left: 0px;
         padding-right: 0px;
+        padding-bottom: 50px;
     }
 
     .section-4-txt{
@@ -801,7 +827,24 @@ html,body
         padding-right: 35px;
     }
 
+    .sec-4-par-1{
+        font-size: 18px;
+    }
+
+    .sec-4-par-2{
+        font-size: 18px;
+    }
+
+    .sec-4-par-3{
+        font-size: 18px;
+    }
+
+    .section-5{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     .footer-bakkup-img{
-        width: 85px;
+        width: 75px;
     }
 }
