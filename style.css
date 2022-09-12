@@ -550,6 +550,7 @@ html,body
     .section-3-header{
         padding-left: 80px;
         padding-right: 80px;
+        padding-bottom: 5px;
     }
 
     .section-4-flex-container{
