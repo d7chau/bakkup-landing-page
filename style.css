@@ -330,13 +330,13 @@ html,body
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer-bakkup-img{
     display: block;
-    width: 100px;
+    width: 85px;
     margin: 0 auto;
     padding-bottom: 5px;
 }
